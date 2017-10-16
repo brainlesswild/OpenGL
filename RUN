@@ -1,0 +1,4 @@
+g++ -std=c++11 -c Cube.cpp
+g++ Cube.o -o test1 -lsfml-window -lsfml-graphics -lsfml-system -lGL -lGLU -lGLEW
+./test1
+
